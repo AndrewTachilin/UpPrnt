@@ -1,0 +1,137 @@
+{
+  status: {
+    hrDeviceStatus: 2,
+    status1: "Готов к сканир.",
+    status2: "Сканир. на USB",
+    status3: " Картридж исправен",
+    status4: ""
+  },
+  identity: {
+    model_name: "Samsung SCX-483x 5x3x Series",
+    host_name: "sm2861",
+    location: "105 komn",
+    serial_num: "Z5MCBJDC900037D ",
+    ip_addr: "10.60.0.39",
+    ipv6_link_addr: "",
+    mac_addr: "00:15:99:B2:1B:54",
+    admin_email: "printersprosv@prosv.ru",
+    admin_name: "",
+    admin_phone: ""
+  },
+  toner_black: {
+    opt: 1,
+    status: 0,
+    remaining: 52,
+    cnt: 2344
+  },
+  toner_cyan: {
+    opt: 0,
+    status: 0,
+    remaining: 0,
+    cnt: 0
+  },
+  toner_magenta: {
+    opt: 0,
+    status: 0,
+    remaining: 0,
+    cnt: 0
+  },
+  toner_yellow: {
+    opt: 0,
+    status: 0,
+    remaining: 0,
+    cnt: 0
+  },
+  drum_black: {
+    opt: 0,
+    status: 0,
+    remaining: 0
+  },
+  drum_cyan: {
+    opt: 0,
+    status: 0,
+    remaining: 0
+  },
+  drum_magenta: {
+    opt: 0,
+    status: 0,
+    remaining: 0
+  },
+  drum_yellow: {
+    opt: 0,
+    status: 0,
+    remaining: 0
+  },
+  tray1: {
+    opt: 1,
+    paper_size1: 4,
+    paper_size2: 0,
+    paper_type: 2,
+    capa: 250,
+    status: 2
+  },
+  tray2: {
+    opt: 2,
+    paper_size1: 4,
+    paper_size2: 0,
+    paper_type: 2,
+    capa: 520,
+    status: 0
+  },
+  tray3: {
+    opt: 0,
+    paper_size1: 0,
+    paper_size2: 0,
+    paper_type: 0,
+    capa: 500,
+    status: 0
+  },
+  tray4: {
+    opt: 0,
+    paper_size1: 0,
+    paper_size2: 0,
+    paper_type: 0,
+    capa: 500,
+    status: 0
+  },
+  tray5: {
+    opt: 0,
+    paper_size1: 0,
+    paper_size2: 0,
+    paper_type: 0,
+    capa: 0,
+    status: 0
+  },
+  mp: {
+    opt: 1,
+    paper_size1: 4,
+    paper_size2: 0,
+    paper_type1: 2,
+    paper_type2: 0,
+    capa: 50,
+    status: 1
+  },
+  GXI_INSTALL_OPTION_MULTIBIN: 0,
+  outbin: [],
+  capability: {
+    hdd: {
+      opt: 2,
+      capa: 0
+    },
+    ram: {
+      opt: 262144,
+      capa: 262144
+    },
+    scanner: {
+      opt: 50,
+      capa: 50
+    }
+  },
+  options: {
+    extendedMem: 2
+  },
+  GXI_ACTIVE_ALERT_TOTAL: 0,
+  GXI_ADMIN_WUI_HAS_DEFAULT_PASS: 0,
+  GXI_SUPPORT_COLOR: 0,
+  GXI_STORAGE_TYPE: 0
+} "\';';

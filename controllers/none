@@ -1,0 +1,140 @@
+Log opened at 2017-03-15 12:29:44
+I: Connecting to configured address/port: 127.0.0.1:9001.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" language="PHP" xdebug:language_version="5.6.1-dev" protocol_version="1.0" appid="644" idekey="16496"><engine version="2.4.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2016 by Derick Rethans]]></copyright></init>
+
+<- feature_set -i 1 -n show_hidden -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+
+<- feature_set -i 2 -n max_depth -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+
+<- feature_set -i 3 -n max_children -v 100
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+
+<- status -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="status" transaction_id="4" status="starting" reason="ok"></response>
+
+<- step_into -i 5
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="5" status="break" reason="ok"><xdebug:message filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></xdebug:message></response>
+
+<- breakpoint_set -i 6 -t line -f file://C:/OpenServer/domains/printers/controllers/samsungController.php -n 12
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="6" id="6440001"></response>
+
+<- breakpoint_set -i 7 -t line -f file://C:/OpenServer/domains/printers/head.php -n 62
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="7" id="6440002"></response>
+
+<- stack_get -i 8
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="8"><stack where="{main}" level="0" type="file" filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></stack></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- run -i 10
+Log closed at 2017-03-15 12:29:44
+
+Log opened at 2017-03-15 12:29:52
+I: Connecting to configured address/port: 127.0.0.1:9001.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" language="PHP" xdebug:language_version="5.6.1-dev" protocol_version="1.0" appid="7288" idekey="13538"><engine version="2.4.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2016 by Derick Rethans]]></copyright></init>
+
+<- feature_set -i 1 -n show_hidden -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+
+<- feature_set -i 2 -n max_depth -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+
+<- feature_set -i 3 -n max_children -v 100
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+
+<- status -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="status" transaction_id="4" status="starting" reason="ok"></response>
+
+<- step_into -i 5
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="5" status="break" reason="ok"><xdebug:message filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></xdebug:message></response>
+
+<- breakpoint_set -i 6 -t line -f file://C:/OpenServer/domains/printers/controllers/samsungController.php -n 12
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="6" id="72880001"></response>
+
+<- breakpoint_set -i 7 -t line -f file://C:/OpenServer/domains/printers/head.php -n 62
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="7" id="72880002"></response>
+
+<- stack_get -i 8
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="8"><stack where="{main}" level="0" type="file" filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></stack></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- run -i 10
+Log closed at 2017-03-15 12:29:52
+
+Log opened at 2017-03-15 12:30:19
+I: Connecting to configured address/port: 127.0.0.1:9001.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" language="PHP" xdebug:language_version="5.6.1-dev" protocol_version="1.0" appid="4592" idekey="15116"><engine version="2.4.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2016 by Derick Rethans]]></copyright></init>
+
+<- feature_set -i 1 -n show_hidden -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+
+<- feature_set -i 2 -n max_depth -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+
+<- feature_set -i 3 -n max_children -v 100
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+
+<- status -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="status" transaction_id="4" status="starting" reason="ok"></response>
+
+<- step_into -i 5
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="5" status="break" reason="ok"><xdebug:message filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></xdebug:message></response>
+
+<- breakpoint_set -i 6 -t line -f file://C:/OpenServer/domains/printers/controllers/samsungController.php -n 13
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="6" id="45920001"></response>
+
+<- breakpoint_set -i 7 -t line -f file://C:/OpenServer/domains/printers/head.php -n 62
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="7" id="45920002"></response>
+
+<- stack_get -i 8
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="8"><stack where="{main}" level="0" type="file" filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></stack></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- run -i 10
+Log closed at 2017-03-15 12:30:19
+
+Log opened at 2017-03-15 12:30:35
+I: Connecting to configured address/port: 127.0.0.1:9001.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" language="PHP" xdebug:language_version="5.6.1-dev" protocol_version="1.0" appid="5760" idekey="10602"><engine version="2.4.0"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2016 by Derick Rethans]]></copyright></init>
+
+<- feature_set -i 1 -n show_hidden -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="1" feature="show_hidden" success="1"></response>
+
+<- feature_set -i 2 -n max_depth -v 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="2" feature="max_depth" success="1"></response>
+
+<- feature_set -i 3 -n max_children -v 100
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="feature_set" transaction_id="3" feature="max_children" success="1"></response>
+
+<- status -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="status" transaction_id="4" status="starting" reason="ok"></response>
+
+<- step_into -i 5
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_into" transaction_id="5" status="break" reason="ok"><xdebug:message filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></xdebug:message></response>
+
+<- breakpoint_set -i 6 -t line -f file://C:/OpenServer/domains/printers/head.php -n 62
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="6" id="57600001"></response>
+
+<- breakpoint_set -i 7 -t line -f file://C:/OpenServer/domains/printers/controllers/samsungController.php -n 33
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="7" id="57600002"></response>
+
+<- stack_get -i 8
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="8"><stack where="{main}" level="0" type="file" filename="file:///C:/OpenServer/domains/printers/controllers/samsungController.php" lineno="3"></stack></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- run -i 10
+Log closed at 2017-03-15 12:30:35
+
